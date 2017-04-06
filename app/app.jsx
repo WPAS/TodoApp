@@ -12,10 +12,6 @@ store.subscribe(() => {
   console.log('New state', store.getState())
 });
 
-store.dispatch(actions.addTodo('Test Redux'));
-store.dispatch(actions.setSearchText('Redux'));
-store.dispatch(actions.toggleShowCompleted());
-
 $(document).foundation();
 
 require('style!css!sass!applicationStyles');
